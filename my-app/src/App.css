@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #FFF;
+  /* height: 700px; */
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 400px;
+}
+
+.logoText {
+  color: #1CA199;
+  font-size: 54px;
+}
+
+p {
+  color: grey;
+  -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
+  animation: pulsate-fwd 1s ease-in-out infinite both;
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  color: grey;
+  height: 200px;
+}
+
+.mailIcon {
+  margin: 0 5px;
+  color: grey;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
